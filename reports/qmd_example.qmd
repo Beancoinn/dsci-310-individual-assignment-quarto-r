@@ -7,6 +7,8 @@ format:
     toc-depth: 2
     toc-title: Contents
 editor: source
+execute:
+  echo: false
 bibliography: references.bib
 ---
 
@@ -34,11 +36,11 @@ knitr (Xie 2014), tidyverse (Wickham 2017), and Quarto (Allaire et al 2022).
 
 ## Results
 
-![](../results/horse_pops_plot.png){width=65%}{#fig-f1}
+![Figure 1](../results/horse_pops_plot.png){width=65%}{#fig-figure-1}
 
 Figure 1: Horse populations for all provinces in Canada from 1906 - 1972.
 
-We can see from Figure 1 that Ontario, Saskatchewan and Alberta 
+We can see from @figure-1 that Ontario, Saskatchewan and Alberta 
 have had the highest horse populations in Canada. 
 All provinces have had a decline in horse populations since 1940. 
 This is likely due to the rebound of the Canadian automotive industry 
@@ -65,10 +67,10 @@ $$s = \sqrt{\frac{\sum_{i=1}^N (x_i - \overline{x})^2}{N-1} }$$
 
 Additionally, note that in Table 1 we consider the sample standard deviation of the number of horses during the same time span as Figure 1.
 
-![](../results/horse_pop_plot_largest_sd.png){width=65%}{#fig-f2}
+![Figure 2](../results/horse_pop_plot_largest_sd.png){width=65%}{#fig-figure-2}
 
 Figure 2: Horse populations for the province with the largest standard deviation
 
-In Figure 2 we zoom in and look at the province of ???, which had the largest spread of values in terms of standard deviation.
+In @figure-2 we zoom in and look at the province of '{r} largest_sd', which had the largest spread of values in terms of standard deviation.
 
 ## References
